@@ -1,0 +1,56 @@
+<div class="navbar">
+
+  <!-- Navbar logo -->
+  <div class="nav-header">
+    <div class="nav-logo">
+      <h2 class="title">
+        <a href="https://fb.com/5aleda4rf/" target="_blank">Khaloda News</a>
+      </h2>
+    </div>
+  </div>
+
+  <!-- responsive navbar toggle button -->
+  <input type="checkbox" id="nav-check">
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+
+  <!-- Navbar items -->
+  <div class="nav-links">
+    <a routerLink="home">Home</a>
+    <a routerLink="about">About</a>
+
+    <!-- Dropdown menu -->
+    <div class="dropdown">
+      <a class="dropBtn" routerLink="egyptnews">Egypt News
+
+      </a>
+      <div class="drop-content">
+        <a routerLink="egyptnews/sports">Sports</a>
+        <a routerLink="egyptnews/technology">Technology</a>
+        <a routerLink="egyptnews/business">Business</a>
+      </div>
+    </div>
+
+    <!-- Dropdown menu -->
+    <div class="dropdown">
+      <a class="dropBtn" routerLink="usanews">USA News
+        <i class="fas fa-angle-down"></i>
+      </a>
+      <div class="drop-content">
+        <a routerLink="usanews/sports">Sports</a>
+        <a routerLink="usanews/technology">Technology</a>
+        <a routerLink="usanews/business">Business</a>
+      </div>
+    </div>
+
+    <a href="http://localhost:5555/" target="_blank" class="appToDo" style="color: #ffffff">ToDo App</a>
+    <a href="#">Contact Us</a>
+
+  </div>
+
+</div>

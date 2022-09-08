@@ -1,0 +1,36 @@
+.card-img-top{
+  height: 30%;
+  border-radius: 7px 7px 0px 0px;
+}
+.card-body{
+  text-align: center;
+}
+.card{
+
+  margin: 30px auto;
+  height: 500px;
+  transition: 0.4s;
+  background-color: #252525;
+  border: white 1px solid;
+  border-radius: 10px;
+  color: white;
+}
+.card:hover{
+
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.card-text{
+  height: 35%;
+  overflow: hidden;
+}
+
+.card-title{
+  height: 35%;
+  overflow: hidden;
+}
+
+h5{
+  color: #c20000;
+}
